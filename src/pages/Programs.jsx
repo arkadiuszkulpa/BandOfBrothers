@@ -55,9 +55,17 @@ export default function Programs() {
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-4">Self-Improvement Programs</h1>
-          <p className="text-xl text-gray-300">
-            Choose a structured program to follow with your fraternity. All programs are free and community-driven.
+          <p className="text-xl text-gray-300 mb-4">
+            Choose a structured program to follow with your fraternity. The community connection is always free—
+            program costs are up to each fraternity to decide.
           </p>
+          <div className="bg-gray-800 border border-gray-700 rounded-lg p-4 max-w-3xl">
+            <p className="text-sm text-gray-300">
+              <strong>What we open-source:</strong> Access to other men seeking self-improvement. The self-help industry
+              keeps membership data hidden behind paywalls. We give it to you for free via WhatsApp. Whether you choose
+              free or paid programs is entirely up to your fraternity.
+            </p>
+          </div>
         </div>
       </section>
 

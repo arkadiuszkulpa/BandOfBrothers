@@ -77,10 +77,10 @@ export default function HowItWorks() {
                   As a fraternity, choose which program you want to follow together. Options include:
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                  <li>Exodus 90 (the classic 90-day spiritual exercise)</li>
-                  <li>That Man Is You (26-week program)</li>
-                  <li>33 Days to Morning Glory</li>
-                  <li>75 Hard (secular alternative)</li>
+                  <li>75 Hard (75-day mental toughness program)</li>
+                  <li>Exodus 90 (90-day spiritual exercise)</li>
+                  <li>That Man Is You (26-week Christian program)</li>
+                  <li>The Strenuous Life (ongoing practical skills)</li>
                   <li>Custom program designed by your fraternity</li>
                 </ul>
               </div>
@@ -137,10 +137,11 @@ export default function HowItWorks() {
 
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-lg border border-gray-200">
-              <h3 className="text-xl font-bold mb-3">No Corporate Gatekeepers</h3>
+              <h3 className="text-xl font-bold mb-3">No Corporate Gatekeepers or Silos</h3>
               <p className="text-gray-700">
-                When companies fail or become greedy, they can't shut down a grassroots movement.
-                This belongs to the men who participate, not to shareholders.
+                Corporate programs silo men into individual programs—once it's over, communication stops. Our WhatsApp community
+                keeps everyone connected in one place, ready to tackle the next challenge together, whether that's a New Year's
+                resolution, Lent, fatherhood, or any life motivator. No waiting for the next program cycle.
               </p>
             </div>
 
@@ -201,10 +202,11 @@ export default function HowItWorks() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-2">Is this officially affiliated with Exodus 90 or other programs?</h3>
+              <h3 className="text-xl font-bold mb-2">Is this officially affiliated with any programs?</h3>
               <p className="text-gray-700">
-                No. We are an independent grassroots movement. We respect and recommend these programs,
-                but we are not officially connected to any organization.
+                No. We are an independent grassroots movement. We respect and recommend various self-help programs
+                (both Christian and secular), but we are not officially connected to any organization. We simply
+                provide the open-source community connection that the self-help industry keeps behind paywalls.
               </p>
             </div>
           </div>

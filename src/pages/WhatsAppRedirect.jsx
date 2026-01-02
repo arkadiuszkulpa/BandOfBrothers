@@ -3,16 +3,14 @@ import { Link } from 'react-router-dom';
 
 export default function WhatsAppRedirect() {
   const [countdown, setCountdown] = useState(5);
-  // TODO: Replace with your actual WhatsApp Community invite link
-  const whatsappLink = 'https://chat.whatsapp.com/YOUR_COMMUNITY_INVITE_LINK';
+  const whatsappLink = 'https://chat.whatsapp.com/BRws5fOy1fu6YACOMW7XnT';
 
   useEffect(() => {
     const timer = setInterval(() => {
       setCountdown((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          // Uncomment when you have the actual WhatsApp link
-          // window.location.href = whatsappLink;
+          window.location.href = whatsappLink;
           return 0;
         }
         return prev - 1;
@@ -20,12 +18,10 @@ export default function WhatsAppRedirect() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [whatsappLink]);
 
   const handleJoinNow = () => {
-    // Uncomment when you have the actual WhatsApp link
-    // window.location.href = whatsappLink;
-    alert('WhatsApp community link will be added here. For now, this is a demo.');
+    window.location.href = whatsappLink;
   };
 
   return (
@@ -46,7 +42,9 @@ export default function WhatsAppRedirect() {
           <h1 className="text-3xl font-bold mb-4">Join the Band of Brothers Community</h1>
 
           <p className="text-xl text-gray-700 mb-6">
-            You're about to join our WhatsApp Community where you'll connect with men committed to self-improvement and spiritual growth.
+            You're about to join our WhatsApp Community—an always-on brotherhood where men committed to self-improvement
+            stay connected beyond individual programs. Whether it's a New Year's resolution, Lent, fatherhood, or any life challenge,
+            your brothers are here, ready to step up with you.
           </p>
 
           {countdown > 0 ? (
@@ -72,19 +70,19 @@ export default function WhatsAppRedirect() {
             <ul className="text-left text-gray-700 space-y-2 max-w-md mx-auto">
               <li className="flex items-start">
                 <span className="text-primary-600 mr-2">•</span>
-                <span>Introductions from other men looking for fraternities</span>
+                <span>A continuous community (no program silos—everyone stays connected)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary-600 mr-2">•</span>
-                <span>Announcements about programs starting soon</span>
+                <span>Men ready to form fraternities for any life challenge or motivator</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary-600 mr-2">•</span>
-                <span>Opportunities to form or join a fraternity</span>
+                <span>Start programs on your schedule, not corporate deadlines</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary-600 mr-2">•</span>
-                <span>Support and encouragement from the community</span>
+                <span>Ongoing support and encouragement beyond any single program</span>
               </li>
             </ul>
           </div>

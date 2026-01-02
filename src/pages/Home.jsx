@@ -15,7 +15,7 @@ export default function Home() {
             </p>
             <p className="text-xl mb-8 text-gray-400 max-w-3xl mx-auto">
               When corporate programs fail us, we unite. Join a community of men committed to
-              spiritual growth, accountability, and transformation through structured programs like Exodus 90.
+              spiritual growth, accountability, and transformation through structured programs like Exodus 90, 75 Hard, and more.
             </p>
             <div className="flex justify-center gap-4">
               <Link
@@ -41,15 +41,21 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center mb-12">The Problem</h2>
           <div className="max-w-3xl mx-auto text-lg text-gray-700 space-y-4">
             <p>
-              Exodus 90 and similar programs have helped countless men grow spiritually and develop discipline.
-              But when corporate interests take over, these programs become expensive, inaccessible, or fade away entirely.
+              Self-help programs for men—such as Exodus 90, 75 Hard, and others—have helped countless men grow spiritually,
+              mentally, and physically. But when corporate interests take over, these programs become expensive, inaccessible,
+              or fade away entirely.
             </p>
             <p>
-              Fraternities dissolve. Men who are ready to change their lives can't find brothers to journey with them.
-              The structure and accountability that made these programs effective disappears.
+              <strong>Worse yet, the self-help industry keeps one critical thing hidden: membership data.</strong> They profit
+              by keeping you isolated on their subscription platform. You complete a 90-day program, and then what? Communication
+              stops. Your fraternity dissolves. You're on your own until the next scheduled program.
+            </p>
+            <p>
+              But life doesn't wait for the next corporate program cycle. New Year's resolutions, Lent, the birth of a child,
+              a personal crisis, or any other life motivator—these moments demand immediate action and brotherhood.
             </p>
             <p className="font-semibold text-gray-900">
-              But the need for brotherhood and transformation doesn't go away.
+              Men need a community that's always there, ready to step up to any challenge, not just when a company schedules it.
             </p>
           </div>
         </div>
@@ -58,27 +64,39 @@ export default function Home() {
       {/* The Solution */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Solution</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Our Solution: Open-Source Brotherhood</h2>
+          <div className="max-w-3xl mx-auto text-lg text-gray-700 mb-12 text-center space-y-4">
+            <p>
+              <strong>We open-source the one thing the self-help industry wants to keep hidden: membership data.</strong> The WhatsApp
+              community gives you direct access to other men seeking self-improvement. No corporate middleman. No subscription lock-in.
+              Just brothers connecting freely.
+            </p>
+            <p>
+              Whether you're starting a New Year's resolution, preparing for Lent, becoming a father, or facing any life challenge—your
+              brothers are already there, ready to step up with you. One continuous community, not isolated program silos.
+            </p>
+          </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
               <div className="text-primary-600 text-4xl mb-4">&#x1F91D;</div>
-              <h3 className="text-xl font-bold mb-3">Unite Men</h3>
+              <h3 className="text-xl font-bold mb-3">Always-On Community</h3>
               <p className="text-gray-700">
-                Connect with men who share your commitment to growth, regardless of where corporate programs have gone.
+                No silos. No program end dates. One continuous community where men connect, support each other, and tackle any challenge together.
               </p>
             </div>
             <div className="text-center p-6">
               <div className="text-primary-600 text-4xl mb-4">&#x1F4AA;</div>
-              <h3 className="text-xl font-bold mb-3">Form Fraternities</h3>
+              <h3 className="text-xl font-bold mb-3">Form Fraternities Anytime</h3>
               <p className="text-gray-700">
-                Create small groups of 4-8 brothers who will hold each other accountable and walk the journey together.
+                Create small groups of 4-8 brothers whenever life calls for it. Your motivation is the schedule, not corporate deadlines.
               </p>
             </div>
             <div className="text-center p-6">
               <div className="text-primary-600 text-4xl mb-4">&#x1F4D6;</div>
-              <h3 className="text-xl font-bold mb-3">Follow Programs</h3>
+              <h3 className="text-xl font-bold mb-3">Any Program, Any Time</h3>
               <p className="text-gray-700">
-                Access Exodus 90, other Christian programs, or secular alternatives - all free, community-driven.
+                Choose from Christian programs (Exodus 90, That Man Is You) or secular alternatives (75 Hard, The Strenuous Life)—
+                start whenever you need them, not when a corporation schedules it.
               </p>
             </div>
           </div>
@@ -119,7 +137,7 @@ export default function Home() {
               <div>
                 <h3 className="font-bold text-lg mb-2">Choose a Program</h3>
                 <p className="text-gray-700">
-                  Select from Exodus 90, other Christian programs, or secular alternatives. Your fraternity commits together.
+                  Select from Christian programs, secular alternatives, or create your own. Your fraternity commits together.
                 </p>
               </div>
             </div>

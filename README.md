@@ -151,13 +151,13 @@ BandOfBrothers/
 
 ### WhatsApp Community Link
 
-Update the WhatsApp community invite link in `src/pages/WhatsAppRedirect.jsx`:
+The WhatsApp community invite link is configured in `src/pages/WhatsAppRedirect.jsx`:
 
 ```javascript
-const whatsappLink = 'https://chat.whatsapp.com/YOUR_COMMUNITY_INVITE_LINK';
+const whatsappLink = 'https://chat.whatsapp.com/BRws5fOy1fu6YACOMW7XnT';
 ```
 
-Also uncomment the redirect logic once you have a valid link.
+The redirect functionality is now active and will automatically redirect users after a 5-second countdown.
 
 ## Deployment to AWS Amplify
 
