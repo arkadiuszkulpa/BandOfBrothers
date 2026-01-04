@@ -2,7 +2,7 @@
 
 ## Prerequisites ✓
 - [x] GitHub repository: https://github.com/arkadiuszkulpa/BandOfBrothers
-- [x] Branch: `claude/app-deployment-research-ug2QP`
+- [x] Branch: `main` (production) and `dev` (development)
 - [x] Latest code pushed to GitHub
 - [x] AWS account configured (Account: 224356102322)
 - [x] Amplify Gen2 project structure ready
@@ -32,7 +32,8 @@
 ### Step 4: Configure Repository and Branch
 
 1. **Repository**: Select `arkadiuszkulpa/BandOfBrothers` from the dropdown
-2. **Branch**: Select `claude/app-deployment-research-ug2QP`
+2. **Branch**: Select `main` (for production deployment)
+   - Note: You can also connect the `dev` branch later for a staging environment
 3. Check the box for **"Connecting a monorepo? Pick a folder"** if you see it - **leave it unchecked**
 4. Click **"Next"**
 
@@ -77,7 +78,7 @@ Click **"Next"**
 
 1. Review all settings:
    - Repository: arkadiuszkulpa/BandOfBrothers
-   - Branch: claude/app-deployment-research-ug2QP
+   - Branch: main
    - Build settings: Auto-detected
 
 2. Click **"Save and deploy"**
@@ -98,7 +99,7 @@ The deployment process will start automatically. You'll see 4 stages:
 ### Step 8: Access Your Live Site
 
 Once deployment completes:
-1. You'll see a URL like: `https://claude-app-deployment-research-ug2qp.d1234abcd.amplifyapp.com`
+1. You'll see a URL like: `https://main.d1234abcd.amplifyapp.com`
 2. Click the URL to view your live site
 3. Test all features:
    - [ ] Home page loads
@@ -149,12 +150,14 @@ Currently, your app doesn't require additional environment variables, but if you
 3. Add key-value pairs
 4. Redeploy to apply changes
 
-### 3. Branch Deployments
-To deploy other branches (e.g., `main`):
+### 3. Branch Deployments (Staging Environment)
+To deploy the `dev` branch for a staging environment:
 
 1. In Amplify Console, click **"Connect branch"**
-2. Select branch from dropdown
-3. Each branch gets its own URL for testing
+2. Select `dev` branch from dropdown
+3. Each branch gets its own URL:
+   - `main` → Production: `https://main.d1234abcd.amplifyapp.com`
+   - `dev` → Staging: `https://dev.d1234abcd.amplifyapp.com`
 
 ---
 
@@ -167,12 +170,19 @@ After initial setup, **every push to GitHub** will trigger:
 
 **Example workflow:**
 ```bash
+# Development workflow
+git checkout dev
 # Make changes locally
 git add .
-git commit -m "Update feature"
-git push origin claude/app-deployment-research-ug2QP
+git commit -m "Add new feature"
+git push origin dev
+# Amplify automatically builds and deploys to staging URL
 
-# Amplify automatically builds and deploys in ~5 minutes
+# Production workflow (after testing on dev)
+git checkout main
+git merge dev
+git push origin main
+# Amplify automatically builds and deploys to production URL
 ```
 
 ---
@@ -258,11 +268,20 @@ git push origin claude/app-deployment-research-ug2QP
 ## Summary
 
 ✅ **Repository ready**: All code committed and pushed
+✅ **Proper git branches**: `main` (production) and `dev` (development)
 ✅ **AWS credentials configured**: Account 224356102322
 ✅ **WhatsApp link active**: https://chat.whatsapp.com/BRws5fOy1fu6YACOMW7XnT
 ✅ **Messaging updated**: Open-source membership data focus
 ✅ **Ready to deploy**: Follow steps above
 
-**Deployment URL will be**: `https://claude-app-deployment-research-ug2qp.[random].amplifyapp.com`
+**Deployment URLs will be**:
+- Production: `https://main.[random].amplifyapp.com`
+- Staging (optional): `https://dev.[random].amplifyapp.com`
+
+## Git Branch Strategy
+
+- **`main`** → Production deployments (deploy this to Amplify)
+- **`dev`** → Development/staging (optionally connect for testing)
+- Work on features in `dev`, test, then merge to `main` for production
 
 Good luck with your deployment! 🚀
