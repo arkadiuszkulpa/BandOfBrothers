@@ -41,7 +41,7 @@ function DashboardContent({ signOut }) {
       <div className="bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-2xl font-bold">Band of Brothers - Admin Dashboard</h1>
+            <h1 className="text-2xl font-bold">72Others - Admin Dashboard</h1>
             <button
               onClick={signOut}
               className="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded transition"

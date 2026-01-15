@@ -1,7 +1,7 @@
 # AWS Amplify Console Deployment Guide
 
 ## Prerequisites ✓
-- [x] GitHub repository: https://github.com/arkadiuszkulpa/BandOfBrothers
+- [x] GitHub repository: https://github.com/arkadiuszkulpa/72Others
 - [x] Branch: `main` (production) and `dev` (development)
 - [x] Latest code pushed to GitHub
 - [x] AWS account configured (Account: 224356102322)
@@ -27,11 +27,11 @@
 1. You'll be redirected to GitHub to authorize AWS Amplify
 2. Click **"Authorize AWS Amplify"**
 3. Enter your GitHub password if prompted
-4. Select which repositories to grant access to (choose "All repositories" or just "BandOfBrothers")
+4. Select which repositories to grant access to (choose "All repositories" or just "72Others")
 
 ### Step 4: Configure Repository and Branch
 
-1. **Repository**: Select `arkadiuszkulpa/BandOfBrothers` from the dropdown
+1. **Repository**: Select `arkadiuszkulpa/72Others` from the dropdown
 2. **Branch**: Select `main` (for production deployment)
    - Note: You can also connect the `dev` branch later for a staging environment
 3. Check the box for **"Connecting a monorepo? Pick a folder"** if you see it - **leave it unchecked**
@@ -66,7 +66,7 @@ backend:
 ```
 
 **Important Settings:**
-- **App name**: BandOfBrothers (auto-filled)
+- **App name**: 72Others (auto-filled)
 - **Environment name**: production (or leave as default)
 - **Build settings**: Should be auto-detected (leave as is)
 - **Advanced settings**:
@@ -77,7 +77,7 @@ Click **"Next"**
 ### Step 6: Review and Deploy
 
 1. Review all settings:
-   - Repository: arkadiuszkulpa/BandOfBrothers
+   - Repository: arkadiuszkulpa/72Others
    - Branch: main
    - Build settings: Auto-detected
 
@@ -134,7 +134,7 @@ Once deployment completes:
 ## Post-Deployment Configuration
 
 ### 1. Custom Domain (Optional)
-If you want to use a custom domain like `bandofbrothers.com`:
+If you want to use a custom domain like `72others.com`:
 
 1. In Amplify Console, go to **"Domain management"**
 2. Click **"Add domain"**
@@ -260,7 +260,7 @@ git push origin main
 ## Support Resources
 
 - **Amplify Gen2 Docs**: https://docs.amplify.aws/react/
-- **GitHub Repository**: https://github.com/arkadiuszkulpa/BandOfBrothers
+- **GitHub Repository**: https://github.com/arkadiuszkulpa/72Others
 - **AWS Support**: Through AWS Console
 
 ---

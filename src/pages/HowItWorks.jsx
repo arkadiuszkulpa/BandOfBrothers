@@ -6,10 +6,30 @@ export default function HowItWorks() {
       {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold mb-4">How Band of Brothers Works</h1>
+          <h1 className="text-4xl font-bold mb-4">How 72Others Works</h1>
           <p className="text-xl text-gray-300">
             A simple, grassroots approach to building fraternities and transforming lives.
           </p>
+        </div>
+      </section>
+
+      {/* Why 72Others? */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-8">Why 72Others?</h2>
+          <div className="bg-white p-8 rounded-lg border border-gray-200">
+            <p className="text-lg text-gray-700 mb-4">
+              <strong>The name comes from Luke 10</strong> - Jesus sent 72 disciples in pairs to every town.
+              Not the famous twelve, but everyone else willing to do the work.
+            </p>
+            <p className="text-lg text-gray-700 mb-4">
+              They went in pairs because the journey is too hard alone. That's our model:
+              pairs within fraternities, missions chosen together, support that doesn't quit.
+            </p>
+            <p className="text-lg text-gray-700">
+              We're building Luke 10 for modern men - rooted in scripture, practical for today.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -186,10 +206,11 @@ export default function HowItWorks() {
             </div>
 
             <div>
-              <h3 className="text-xl font-bold mb-2">Do I have to be Christian?</h3>
+              <h3 className="text-xl font-bold mb-2">Do I need to be Christian to join?</h3>
               <p className="text-gray-700">
-                No. While many programs are Christian-focused, we support secular programs too. Find brothers
-                who share your worldview and commit to growth together.
+                Our model is rooted in Luke 10, and we're honest about that. We welcome men from all backgrounds
+                who respect the biblical foundation and want accountability with other men. If scripture-based
+                community isn't for you, this probably isn't the right fit - and that's okay.
               </p>
             </div>
 

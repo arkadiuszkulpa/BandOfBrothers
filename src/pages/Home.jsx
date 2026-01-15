@@ -8,14 +8,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Band of Brothers
+              72Others
             </h1>
             <p className="text-2xl mb-4 text-gray-300">
-              A Grassroots Movement for Men Seeking Self-Improvement
+              Where Men Are Sent in Pairs
             </p>
             <p className="text-xl mb-8 text-gray-400 max-w-3xl mx-auto">
-              When corporate programs fail us, we unite. Join a community of men committed to
-              spiritual growth, accountability, and transformation through structured programs like Exodus 90, 75 Hard, and more.
+              Modern accountability for men who refuse to go it alone. Find your anchor, choose your mission, go together.
             </p>
             <div className="flex justify-center gap-4">
               <Link
@@ -98,6 +97,35 @@ export default function Home() {
                 Choose from Christian programs (Exodus 90, That Man Is You) or secular alternatives (75 Hard, The Strenuous Life)—
                 start whenever you need them, not when a corporation schedules it.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About 72Others */}
+      <section className="py-16 bg-primary-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-8">What is 72Others?</h2>
+          <div className="prose prose-lg mx-auto text-gray-700">
+            <p className="text-xl mb-6 text-center">
+              The name comes from <strong>Luke 10</strong> - where Jesus sent 72 disciples
+              in pairs to every town.
+            </p>
+            <div className="grid md:grid-cols-2 gap-8 mt-8">
+              <div className="bg-white p-6 rounded-lg">
+                <h3 className="font-bold text-xl mb-3">Not the Famous Twelve</h3>
+                <p>
+                  These weren't the celebrity apostles. They were the "others" -
+                  regular men willing to do the work. That's who we are.
+                </p>
+              </div>
+              <div className="bg-white p-6 rounded-lg">
+                <h3 className="font-bold text-xl mb-3">Sent in Pairs</h3>
+                <p>
+                  They went two-by-two because the journey is too hard alone.
+                  Find your anchor partner, form your fraternity, go together.
+                </p>
+              </div>
             </div>
           </div>
         </div>

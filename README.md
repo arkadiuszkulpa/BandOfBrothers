@@ -1,10 +1,10 @@
-# Band of Brothers
+# 72Others
 
-A grassroots movement platform for men seeking self-improvement and spiritual growth through structured programs like Exodus 90.
+Where men are sent in pairs. Modern accountability rooted in Luke 10 - find your anchor, choose your mission, go together.
 
 ## Overview
 
-Band of Brothers is a community-driven platform that helps men:
+72Others is a community-driven platform that helps men:
 - Connect with other men committed to self-improvement
 - Form fraternities (accountability groups of 4-8 brothers)
 - Follow structured programs (Exodus 90, 75 Hard, and more)
@@ -49,7 +49,7 @@ Band of Brothers is a community-driven platform that helps men:
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd BandOfBrothers
+cd 72Others
 ```
 
 2. Install dependencies:
@@ -87,7 +87,7 @@ npm run sandbox
 ## Project Structure
 
 ```
-BandOfBrothers/
+72Others/
 ├── amplify/
 │   ├── auth/
 │   │   └── resource.ts          # Authentication configuration

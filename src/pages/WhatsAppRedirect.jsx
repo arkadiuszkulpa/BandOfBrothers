@@ -39,7 +39,7 @@ export default function WhatsAppRedirect() {
             </svg>
           </div>
 
-          <h1 className="text-3xl font-bold mb-4">Join the Band of Brothers Community</h1>
+          <h1 className="text-3xl font-bold mb-4">Join the 72Others Community</h1>
 
           <p className="text-xl text-gray-700 mb-6">
             You're about to join our WhatsApp Community—an always-on brotherhood where men committed to self-improvement
