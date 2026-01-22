@@ -1,14 +1,18 @@
 # 72Others
 
-Where men are sent in pairs. Modern accountability rooted in Luke 10 - find your anchor, choose your mission, go together.
+> *Where men are sent in pairs.*
 
-## Overview
+**[Read the Manifesto](MANIFESTO.md)** to understand why this exists.
 
-72Others is a community-driven platform that helps men:
-- Connect with other men committed to self-improvement
-- Form fraternities (accountability groups of 4-8 brothers)
-- Follow structured programs (Exodus 90, 75 Hard, and more)
-- Access resources without corporate gatekeeping
+This repository contains the web platform for 72Others—a free, community-driven movement helping men form accountability groups and pursue meaningful change together.
+
+## Quick Links
+
+- [Manifesto](MANIFESTO.md) — Our mission and philosophy
+- [Deployment Guide](DEPLOYMENT_GUIDE.md) — Full AWS Amplify deployment instructions
+- [Quick Deploy](QUICK_DEPLOY.md) — Deployment checklist
+
+---
 
 ## Features
 
