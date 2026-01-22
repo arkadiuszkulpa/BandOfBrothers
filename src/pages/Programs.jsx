@@ -54,18 +54,14 @@ export default function Programs() {
       {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold mb-4">Self-Improvement Programs</h1>
+          <h1 className="text-4xl font-bold mb-4">Pick a Programme</h1>
           <p className="text-xl text-gray-300 mb-4">
-            Choose a structured program to follow with your fraternity. The community connection is always free—
-            program costs are up to each fraternity to decide.
+            Whatever structure you want to use—Exodus 90, 75 Hard, or something else entirely.
+            The programme is the vehicle, not the destination.
           </p>
-          <div className="bg-gray-800 border border-gray-700 rounded-lg p-4 max-w-3xl">
-            <p className="text-sm text-gray-300">
-              <strong>What we open-source:</strong> Access to other men seeking self-improvement. The self-help industry
-              keeps membership data hidden behind paywalls. We give it to you for free via WhatsApp. Whether you choose
-              free or paid programs is entirely up to your fraternity.
-            </p>
-          </div>
+          <p className="text-lg text-gray-400">
+            <strong>Don't do it alone.</strong> Find brothers to walk it with you.
+          </p>
         </div>
       </section>
 
@@ -147,16 +143,16 @@ export default function Programs() {
       <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Ready to Choose a Program?
+            You need someone else on the same journey.
           </h2>
           <p className="text-xl mb-8 text-gray-300">
-            Join the community and find brothers who want to walk the same path.
+            Period.
           </p>
           <Link
             to="/join-whatsapp"
             className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition inline-block"
           >
-            Join the Community
+            Find Your Anchor
           </Link>
         </div>
       </section>

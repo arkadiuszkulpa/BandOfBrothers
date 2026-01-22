@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">72Others</h3>
             <p className="text-gray-400">
-              Where men are sent in pairs.
+              Find your anchor. Choose your mission. Go together.
             </p>
           </div>
           <div>
@@ -37,7 +37,7 @@ export default function Footer() {
               to="/join-whatsapp"
               className="inline-block bg-primary-600 hover:bg-primary-700 px-6 py-2 rounded-lg transition"
             >
-              Join WhatsApp Community
+              Find Your Anchor
             </Link>
           </div>
         </div>

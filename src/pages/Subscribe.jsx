@@ -52,9 +52,9 @@ export default function Subscribe() {
       {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold mb-4">Subscribe for Updates</h1>
+          <h1 className="text-4xl font-bold mb-4">Stay Connected</h1>
           <p className="text-xl text-gray-300">
-            Get program reminders, new fraternity opportunities, and community updates.
+            Get notified when brothers near you are forming fraternities.
           </p>
         </div>
       </section>
