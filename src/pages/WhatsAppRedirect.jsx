@@ -39,12 +39,13 @@ export default function WhatsAppRedirect() {
             </svg>
           </div>
 
-          <h1 className="text-3xl font-bold mb-4">Join the 72Others Community</h1>
+          <h1 className="text-3xl font-bold mb-4">Find Your Anchor</h1>
 
           <p className="text-xl text-gray-700 mb-6">
-            You're about to join our WhatsApp Community—an always-on brotherhood where men committed to self-improvement
-            stay connected beyond individual programs. Whether it's a New Year's resolution, Lent, fatherhood, or any life challenge,
-            your brothers are here, ready to step up with you.
+            You need someone else on the same journey. This is where you find them.
+          </p>
+          <p className="text-lg text-gray-600 mb-6">
+            Join men who seek change and refuse to give up.
           </p>
 
           {countdown > 0 ? (
@@ -70,19 +71,19 @@ export default function WhatsAppRedirect() {
             <ul className="text-left text-gray-700 space-y-2 max-w-md mx-auto">
               <li className="flex items-start">
                 <span className="text-primary-600 mr-2">•</span>
-                <span>A continuous community (no program silos—everyone stays connected)</span>
+                <span>Brothers ready to form fraternities (4-8 men who know and trust each other)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary-600 mr-2">•</span>
-                <span>Men ready to form fraternities for any life challenge or motivator</span>
+                <span>Find your anchor—the battle buddy who won't let you fall</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary-600 mr-2">•</span>
-                <span>Start programs on your schedule, not corporate deadlines</span>
+                <span>Choose any programme: Exodus 90, 75 Hard, or something else</span>
               </li>
               <li className="flex items-start">
                 <span className="text-primary-600 mr-2">•</span>
-                <span>Ongoing support and encouragement beyond any single program</span>
+                <span>Free. No subscriptions. Just men helping men.</span>
               </li>
             </ul>
           </div>

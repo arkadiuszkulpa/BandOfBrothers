@@ -10,18 +10,18 @@ export default function Home() {
             <h1 className="text-5xl font-bold mb-6">
               72Others
             </h1>
-            <p className="text-2xl mb-4 text-gray-300">
+            <p className="text-2xl mb-4 text-primary-400">
               Where Men Are Sent in Pairs
             </p>
-            <p className="text-xl mb-8 text-gray-400 max-w-3xl mx-auto">
-              Modern accountability for men who refuse to go it alone. Find your anchor, choose your mission, go together.
+            <p className="text-xl mb-8 text-primary-400 max-w-3xl mx-auto">
+              You've tried to change alone. It didn't work. Find your anchor, choose your mission, go together.
             </p>
             <div className="flex justify-center gap-4">
               <Link
                 to="/join-whatsapp"
                 className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition"
               >
-                Join the Community
+                Find Your Anchor
               </Link>
               <Link
                 to="/programs"
@@ -34,107 +34,145 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Problem */}
+      {/* Why We Fail */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">The Problem</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Why We Fail</h2>
           <div className="max-w-3xl mx-auto text-lg text-gray-700 space-y-4">
             <p>
-              Self-help programs for men—such as Exodus 90, 75 Hard, and others—have helped countless men grow spiritually,
-              mentally, and physically. But when corporate interests take over, these programs become expensive, inaccessible,
-              or fade away entirely.
+              You've done Exodus 90. Maybe twice. Maybe five times. And each time, when the 90 days end,
+              you drift back. Back to the habits you swore to break. Back to the man you promised you'd never be again.
             </p>
             <p>
-              <strong>Worse yet, the self-help industry keeps one critical thing hidden: membership data.</strong> They profit
-              by keeping you isolated on their subscription platform. You complete a 90-day program, and then what? Communication
-              stops. Your fraternity dissolves. You're on your own until the next scheduled program.
+              Here's the hard truth: <strong>you don't need a programme to change your life.</strong> If you had
+              the self-discipline, you'd just do it. You wouldn't need 90 days of structure or a checklist or
+              an app tracking your cold showers.
             </p>
             <p>
-              But life doesn't wait for the next corporate program cycle. New Year's resolutions, Lent, the birth of a child,
-              a personal crisis, or any other life motivator—these moments demand immediate action and brotherhood.
+              But you don't. Neither do we. Many of us failed for 10, 15 or 50 years before waking up, and we're still terrified we'll
+              keep failing until we wake up old men with lives not properly lived.
             </p>
             <p className="font-semibold text-gray-900">
-              Men need a community that's always there, ready to step up to any challenge, not just when a company schedules it.
+              So we turn to programmes. And programmes fail us. Not because they're bad—but because they
+              miss the one thing that actually works.
             </p>
           </div>
         </div>
       </section>
 
-      {/* The Solution */}
+      {/* The Loneliness */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Solution: Open-Source Brotherhood</h2>
-          <div className="max-w-3xl mx-auto text-lg text-gray-700 mb-12 text-center space-y-4">
+          <h2 className="text-3xl font-bold text-center mb-12">The Loneliness</h2>
+          <div className="max-w-3xl mx-auto text-lg text-gray-700 space-y-4">
             <p>
-              <strong>We open-source the one thing the self-help industry wants to keep hidden: membership data.</strong> The WhatsApp
-              community gives you direct access to other men seeking self-improvement. No corporate middleman. No subscription lock-in.
-              Just brothers connecting freely.
+              We no longer know how to have real relationships with men. Our fathers didn't teach us.
+              Society didn't show us.
+            </p>
+            <p>At best, we know how to:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Spend nights at a bar talking about football</li>
+              <li>Sit in front of multiplayer games fighting virtual battles that lead nowhere</li>
+              <li>Climb corporate ladders surrounded by "friends" who'd forget our names in a quarter</li>
+            </ul>
+            <p>
+              In all of this, we are still alone.
             </p>
             <p>
-              Whether you're starting a New Year's resolution, preparing for Lent, becoming a father, or facing any life challenge—your
-              brothers are already there, ready to step up with you. One continuous community, not isolated program silos.
+              That friend you share a pint with every other night? He doesn't truly know you. You've never
+              opened your heart to him. And even your wife—even if she's your closest friend in the world—will
+              never fully understand a man's reality.
+            </p>
+            <p className="font-semibold text-gray-900 text-xl">
+              We cannot do this alone.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Squad */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12">The Squad</h2>
+          <div className="max-w-3xl mx-auto text-lg text-gray-700 space-y-4 mb-12">
+            <p>
+              You do not go to war alone.
+            </p>
+            <p>
+              Even the largest army must be divided down to individual squads who know and trust each other.
+              And within those squads, you have your battle buddy. The one who has your back when everything goes wrong.
+            </p>
+            <p>
+              You don't charge into fire because a general told you to. You do it because <strong>you're in
+              this together.</strong> At some point, the result becomes irrelevant. Death? No problem. You lay
+              down your life for something greater. For a cause—but a cause you fight for with your closest
+              brothers beside you.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="text-primary-600 text-4xl mb-4">&#x1F91D;</div>
-              <h3 className="text-xl font-bold mb-3">Always-On Community</h3>
+            <div className="text-center p-6 bg-white rounded-lg shadow-sm">
+              <div className="text-primary-600 text-4xl mb-4">&#x1F3DB;</div>
+              <h3 className="text-xl font-bold mb-3">Community</h3>
               <p className="text-gray-700">
-                No silos. No program end dates. One continuous community where men connect, support each other, and tackle any challenge together.
+                The army. All of us, connected. A movement of men seeking change.
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="text-primary-600 text-4xl mb-4">&#x1F4AA;</div>
-              <h3 className="text-xl font-bold mb-3">Form Fraternities Anytime</h3>
+            <div className="text-center p-6 bg-white rounded-lg shadow-sm">
+              <div className="text-primary-600 text-4xl mb-4">&#x1F46B;</div>
+              <h3 className="text-xl font-bold mb-3">Fraternities</h3>
               <p className="text-gray-700">
-                Create small groups of 4-8 brothers whenever life calls for it. Your motivation is the schedule, not corporate deadlines.
+                The squad. 4-8 brothers who know and trust each other. Your accountability group.
               </p>
             </div>
-            <div className="text-center p-6">
-              <div className="text-primary-600 text-4xl mb-4">&#x1F4D6;</div>
-              <h3 className="text-xl font-bold mb-3">Any Program, Any Time</h3>
+            <div className="text-center p-6 bg-white rounded-lg shadow-sm">
+              <div className="text-primary-600 text-4xl mb-4">&#x2693;</div>
+              <h3 className="text-xl font-bold mb-3">Anchors</h3>
               <p className="text-gray-700">
-                Choose from Christian programs (Exodus 90, That Man Is You) or secular alternatives (75 Hard, The Strenuous Life)—
-                start whenever you need them, not when a corporation schedules it.
+                The battle buddy. Your pair. The one who won't let you fall.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* About 72Others */}
+      {/* The Mission - 72Others */}
       <section className="py-16 bg-primary-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-8">What is 72Others?</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">The Mission</h2>
           <div className="prose prose-lg mx-auto text-gray-700">
             <p className="text-xl mb-6 text-center">
-              The name comes from <strong>Luke 10</strong> - where Jesus sent 72 disciples
-              in pairs to every town.
+              This is why we're called <strong>72Others.</strong>
             </p>
-            <div className="grid md:grid-cols-2 gap-8 mt-8">
-              <div className="bg-white p-6 rounded-lg">
-                <h3 className="font-bold text-xl mb-3">Not the Famous Twelve</h3>
-                <p>
-                  These weren't the celebrity apostles. They were the "others" -
-                  regular men willing to do the work. That's who we are.
-                </p>
-              </div>
-              <div className="bg-white p-6 rounded-lg">
-                <h3 className="font-bold text-xl mb-3">Sent in Pairs</h3>
-                <p>
-                  They went two-by-two because the journey is too hard alone.
-                  Find your anchor partner, form your fraternity, go together.
-                </p>
-              </div>
+            <p className="text-center mb-6">
+              In Luke 10, Jesus sent not the Apostles, but 72 other disciples into the world.
+              And He sent them <strong>in pairs.</strong>
+            </p>
+            <p className="text-center mb-6">
+              Not alone. Never alone.
+            </p>
+            <div className="bg-white p-6 rounded-lg mt-8">
+              <p className="text-center text-lg">
+                Whatever path you come from—Christian, atheist, agnostic. Whatever stage of life you're at.
+                Whatever structure you want to use— Christian programmes like Exodus 90, secular programmes like 75 Hard, or a new approach you designed and want to share with others.
+              </p>
+              <p className="text-center text-xl font-bold mt-4 text-gray-900">
+                Don't do it alone.
+              </p>
+              <p className="text-center text-lg mt-2">
+                You need someone else on the same journey. Period.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* How It Works */}
-      <section className="py-16 bg-gray-50">
+      {/* The Premise */}
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">How It Works</h2>
+          <h2 className="text-3xl font-bold text-center mb-4">The Premise</h2>
+          <p className="text-center text-lg text-gray-600 mb-12">
+            This community is <strong>free.</strong> And it's <strong>yours.</strong>
+          </p>
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="flex items-start">
               <div className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
@@ -143,7 +181,7 @@ export default function Home() {
               <div>
                 <h3 className="font-bold text-lg mb-2">Join the WhatsApp Community</h3>
                 <p className="text-gray-700">
-                  Connect with other men who are interested in self-improvement programs. No fees, no corporate gatekeeping.
+                  Connect with men who are on the same journey. Free, no subscriptions, no gatekeeping.
                 </p>
               </div>
             </div>
@@ -152,9 +190,10 @@ export default function Home() {
                 2
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">Find or Form a Fraternity</h3>
+                <h3 className="font-bold text-lg mb-2">Pick a Programme</h3>
                 <p className="text-gray-700">
-                  Match with 3-7 other men based on location, worldview, and schedule. Your fraternity becomes your accountability group.
+                  Choose from Christian programs (Exodus 90, That Man Is You), secular alternatives
+                  (75 Hard, The Strenuous Life), or create your own.
                 </p>
               </div>
             </div>
@@ -163,56 +202,45 @@ export default function Home() {
                 3
               </div>
               <div>
-                <h3 className="font-bold text-lg mb-2">Choose a Program</h3>
+                <h3 className="font-bold text-lg mb-2">Find or Form a Fraternity</h3>
                 <p className="text-gray-700">
-                  Select from Christian programs, secular alternatives, or create your own. Your fraternity commits together.
+                  Join an existing group or recruit brothers from the community. Form groups of 4-8 men.
+                  Pair up into anchors for daily support. That's it.
                 </p>
               </div>
             </div>
-            <div className="flex items-start">
-              <div className="flex-shrink-0 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center font-bold mr-4">
-                4
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-2">Walk the Journey Together</h3>
-                <p className="text-gray-700">
-                  Complete the program together. Support each other. Grow stronger. Then help others do the same.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="text-center mt-12">
-            <Link
-              to="/how-it-works"
-              className="text-primary-600 hover:text-primary-700 font-semibold"
-            >
-              Learn More About Our Approach →
-            </Link>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary-600 text-white">
+      <section className="py-16 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">
-            Ready to Start Your Journey?
+            The Commitment
           </h2>
-          <p className="text-xl mb-8">
-            Join hundreds of men who refuse to let corporate greed stop their spiritual growth.
+          <p className="text-xl mb-4 text-gray-300">
+            The defining characteristic of men in this community is simple: <strong>they seek change.</strong>
+          </p>
+          <p className="text-lg mb-8 text-gray-400">
+            They are not satisfied with the status quo. They want more and they're hungry to find it.
+            They are sinners. They are faulty. Just like everyone else. But they will not give up.
+          </p>
+          <p className="text-2xl font-bold mb-8">
+            Will you?
           </p>
           <div className="flex justify-center gap-4">
             <Link
               to="/join-whatsapp"
-              className="bg-white text-primary-600 hover:bg-gray-100 px-8 py-3 rounded-lg text-lg font-semibold transition"
+              className="bg-primary-600 hover:bg-primary-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition"
             >
-              Join WhatsApp Community
+              Find Your Anchor
             </Link>
             <Link
-              to="/subscribe"
-              className="bg-primary-700 hover:bg-primary-800 text-white px-8 py-3 rounded-lg text-lg font-semibold transition border-2 border-white"
+              to="/how-it-works"
+              className="bg-gray-700 hover:bg-gray-600 text-white px-8 py-3 rounded-lg text-lg font-semibold transition"
             >
-              Subscribe for Updates
+              Learn More
             </Link>
           </div>
         </div>

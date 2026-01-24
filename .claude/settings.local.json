@@ -3,7 +3,12 @@
     "allow": [
       "Bash(cat:*)",
       "Bash(git add:*)",
-      "Bash(aws amplify:*)"
+      "Bash(aws amplify:*)",
+      "Bash(git checkout:*)",
+      "Bash(aws sts get-caller-identity:*)",
+      "Bash(npm run sandbox:*)",
+      "Bash(timeout 45 tail:*)",
+      "Bash(npm run dev:*)"
     ]
   }
 }
