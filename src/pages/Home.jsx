@@ -10,10 +10,10 @@ export default function Home() {
             <h1 className="text-5xl font-bold mb-6">
               72Others
             </h1>
-            <p className="text-2xl mb-4 text-gray-300">
+            <p className="text-2xl mb-4 text-primary-400">
               Where Men Are Sent in Pairs
             </p>
-            <p className="text-xl mb-8 text-gray-400 max-w-3xl mx-auto">
+            <p className="text-xl mb-8 text-primary-400 max-w-3xl mx-auto">
               You've tried to change alone. It didn't work. Find your anchor, choose your mission, go together.
             </p>
             <div className="flex justify-center gap-4">
