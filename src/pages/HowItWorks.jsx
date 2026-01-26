@@ -29,7 +29,7 @@ export default function HowItWorks() {
                 <p className="text-gray-600 text-sm">The army. All of us, connected.</p>
               </div>
               <div className="text-center p-4">
-                <div className="text-4xl mb-3">&#x1F46B;</div>
+                <div className="text-4xl mb-3">&#x1F91C;&#x1F91B;</div>
                 <h3 className="font-bold text-lg mb-2">Fraternities</h3>
                 <p className="text-gray-600 text-sm">The squad. 4-8 brothers who know and trust each other.</p>
               </div>

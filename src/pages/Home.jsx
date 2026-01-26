@@ -118,7 +118,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center p-6 bg-white rounded-lg shadow-sm">
-              <div className="text-primary-600 text-4xl mb-4">&#x1F46B;</div>
+              <div className="text-primary-600 text-4xl mb-4">&#x1F91C;&#x1F91B;</div>
               <h3 className="text-xl font-bold mb-3">Fraternities</h3>
               <p className="text-gray-700">
                 The squad. 4-8 brothers who know and trust each other. Your accountability group.
